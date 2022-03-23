@@ -1,0 +1,69 @@
+.card-container{
+    display:grid;
+    grid-template-rows: repeat(4, 385px);
+    grid-template-columns: repeat(3, 466px);
+    gap: 2rem;
+    width:100vw;
+    justify-content: center;
+    
+}
+.myCard:hover .myContainer .overlay{
+  height: 30%;
+  display:inline-block;
+  border-radius: 5px;
+}
+.overlay{
+  display:none;
+}
+.myCard{
+    width:466px;
+    height:385px;
+    background-color:rgb(26, 21, 21);
+    color: white;
+    border-radius: 5px;
+}
+.myCard:hover{
+  filter: grayscale(100%);
+  transition: .5s ease;
+  cursor: pointer;
+}
+.img{
+    width: 466px;
+    height:300px;
+    padding:1rem;
+    border-radius: 20px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  /* overflow: hidden; */
+  /* width: 100%; */
+  height: 0;
+  transition: .5s ease;
+  opacity: .6;
+}
+.text {
+  width: 100%;
+  padding: 10px 45px 10px 0;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-60%, -50%);
+  text-align: justify;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.myCard h2{
+    padding:3rem;
+    padding-bottom: 0rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+}
+h2::first-letter{
+  font-size: 120%;
+}
