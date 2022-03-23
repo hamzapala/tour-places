@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tour-places/static/css/main.c0f32b1d.css",
+    "main.js": "/tour-places/static/js/main.950e8b65.js",
+    "static/js/787.a88ad219.chunk.js": "/tour-places/static/js/787.a88ad219.chunk.js",
+    "index.html": "/tour-places/index.html",
+    "main.c0f32b1d.css.map": "/tour-places/static/css/main.c0f32b1d.css.map",
+    "main.950e8b65.js.map": "/tour-places/static/js/main.950e8b65.js.map",
+    "787.a88ad219.chunk.js.map": "/tour-places/static/js/787.a88ad219.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0f32b1d.css",
+    "static/js/main.950e8b65.js"
+  ]
+}
